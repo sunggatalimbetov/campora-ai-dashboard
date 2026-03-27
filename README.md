@@ -56,4 +56,4 @@ Deployed via [Streamlit Community Cloud](https://share.streamlit.io):
 ## Related Repos
 
 - [campora-ai-helper](https://github.com/sunggatalimbetov/campora-ai-helper) — Telegram bot
-- [campora-ai-scrapper](https://github.com/sunggatalimbetov/campora-ai-scrapper) — Telegram group message scraper
+- [campora-ai-scraper](https://github.com/sunggatalimbetov/campora-ai-scraper) — Telegram group message scraper
