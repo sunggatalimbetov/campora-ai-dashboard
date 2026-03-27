@@ -12,7 +12,7 @@ load_dotenv()
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
 
-st.set_page_config(page_title="Vectir AI Dashboard", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Campora AI Dashboard", page_icon="📊", layout="wide")
 
 
 @st.cache_resource
@@ -58,7 +58,7 @@ def fetch_interactions() -> pd.DataFrame:
 raw_df = fetch_interactions()
 
 if raw_df.empty:
-    st.title("Vectir AI Dashboard")
+    st.title("Campora AI Dashboard")
     st.warning("No interaction data found. Make sure the bot has logged some interactions first.")
     st.stop()
 
@@ -110,7 +110,7 @@ if selected_language != "All":
 # Title
 # ---------------------------------------------------------------------------
 
-st.title("Vectir AI Dashboard")
+st.title("Campora AI Dashboard")
 st.caption(f"Showing **{len(df)}** interactions from **{start_date}** to **{end_date}**")
 
 # ---------------------------------------------------------------------------
