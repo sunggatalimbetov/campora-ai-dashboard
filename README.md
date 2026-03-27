@@ -1,6 +1,6 @@
-# Vectir AI Dashboard
+# Campora AI Dashboard
 
-Analytics dashboard for the Vectir AI Telegram bot. Visualizes query patterns, feedback, latency, and usage from the `bot_interactions` table in Supabase.
+Analytics dashboard for the Campora AI Telegram bot. Visualizes query patterns, feedback, latency, and usage from the `bot_interactions` table in Supabase.
 
 ## Local Setup
 
